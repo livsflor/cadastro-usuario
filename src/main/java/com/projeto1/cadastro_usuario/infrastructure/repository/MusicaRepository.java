@@ -8,3 +8,4 @@ import java.util.Optional;
 public interface MusicaRepository extends JpaRepository<Musica, Integer> {
     Optional<Musica> findByTitulo(String titulo);
 }
+

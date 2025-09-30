@@ -1,0 +1,112 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #333;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #00796b;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #004d40;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* Campos de entrada */
+input {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #26a69a;
+}
+
+/* Botões */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #26a69a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #00897b;
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Resultado da busca */
+pre {
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #c5e1a5;
+    max-width: 500px;
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-top: 10px;
+}
+
+/* Separador */
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    input, button, pre {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}

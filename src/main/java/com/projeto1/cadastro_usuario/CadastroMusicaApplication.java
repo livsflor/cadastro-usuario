@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CadastroUsuarioApplication {
+public class CadastroMusicaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CadastroUsuarioApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(CadastroMusicaApplication.class, args);
+    }
 }
